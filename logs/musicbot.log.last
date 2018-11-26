@@ -1,0 +1,20 @@
+[147.031784058] 2018-11-26 16:06:52,791 - INFO - launcher: Starting sanity checks
+[148.031949997] 2018-11-26 16:06:52,792 - INFO - launcher: Checking for Python 3.5+
+[148.031949997] 2018-11-26 16:06:52,792 - INFO - launcher: Checking console encoding
+[148.031949997] 2018-11-26 16:06:52,792 - INFO - launcher: Setting console encoding to UTF-8
+[148.031949997] 2018-11-26 16:06:52,792 - INFO - launcher: Ensuring we're in the right environment
+[149.031877518] 2018-11-26 16:06:52,793 - INFO - launcher: Adding local bins/ folder to path
+[2216.495513916] 2018-11-26 16:06:54,860 - INFO - launcher: Required checks passed.
+[2216.495513916] 2018-11-26 16:06:54,860 - INFO - launcher: Optional checks passed.
+[2216.495513916] 2018-11-26 16:06:54,860 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[7.2986350059509277] 2018-11-26 16:06:59,942 - WARNING - musicbot.config | In config.py::MainThread(9076), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[7.2986350059509277] 2018-11-26 16:06:59,942 - INFO - musicbot.config | In config.py::MainThread(9076), line 124 in run_checks: Using i18n: config/i18n/en.json
+[7.3006355762481689] 2018-11-26 16:06:59,944 - DEBUG - musicbot.json | In json.py::MainThread(9076), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[7.3486456871032715] 2018-11-26 16:06:59,992 - DEBUG - musicbot.bot | In bot.py::MainThread(9076), line 223 in _setup_logging: Set logging level to INFO
+[7.3496451377868652] 2018-11-26 16:06:59,993 - INFO - musicbot.bot | In bot.py::MainThread(9076), line 83 in __init__: Starting MusicBot 1.9.8_1
+[7.3496451377868652] 2018-11-26 16:06:59,993 - INFO - musicbot.bot | In bot.py::MainThread(9076), line 89 in __init__: Loaded autoplaylist with 2531 entries
+[8.1415557861328125] 2018-11-26 16:07:00,785 - DEBUG - musicbot.spotify | In spotify.py::MainThread(9076), line 70 in get_token: Created a new access token: {'access_token': 'BQCEMVuXQR2eBml3E2rc7Gcu6kRE4g2NcyiZk7rax6imQcZ2YF7FstFTX7ltIuy0qpBXKdHpiSwWs7URGV0', 'token_type': 'Bearer', 'expires_in': 3600, 'scope': '', 'expires_at': 1543262820}
+[8.1415557861328125] 2018-11-26 16:07:00,785 - INFO - musicbot.bot | In bot.py::MainThread(9076), line 114 in __init__: Authenticated with Spotify successfully using client ID and secret.
